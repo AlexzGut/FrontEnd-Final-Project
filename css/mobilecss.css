@@ -3,28 +3,117 @@
 }
 
 body {
-    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
+}
+
+/* header - logo */
+header {
+    padding: 5px 15px;
+    background-color: #DCD191;
+}
+
+.brand-logo {
+    margin: auto;
+    width: 100px;
+}
+
+/* nav */
+
+nav {
+    background-color: #F2F2F2;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Main */
+/* Popular gifts */
+
+main {
+    font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
+    padding: 20px 15px;
+}
+
+.product-l,
+.product-r {
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)*/
+    width: 50%;
+    border-radius: 5px;
+    float: left;
+}
+
+.product-l {
+    padding-right: 4px;
+}
+
+.product-r {
+    padding-left: 4px;
+}
+
+figure {
+    margin: 0px;
+}
+
+.popular-gifts img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.popular-gifts a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: .1px;
+}
+
+.popular-gifts h3 {
+    margin: 0px;
+    margin-bottom: 3px;
+}
+
+.popular-gifts span {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 /* Footer*/
 footer {
-    background-color: #DDD292;
-    color: white;
+    background-color: #F2F2F2;
+    color: black;
 }
 
 /* Map location */
 iframe {
     width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Footer Links*/
 .f-col {
     font-size: small;
-    padding: 5px;
+    padding-left: 15px;
 }
 
-.f-col h4{
+.f-col h4 {
     margin-bottom: 10px;
     margin-top: 20px;
 }
@@ -39,11 +128,11 @@ iframe {
     list-style-type: none;
 }
 
-.f-col ul li a:visited {
-    color: black;
+.f-col ul li a {
+    text-decoration: none;
 }
 
-.f-col ul li a:hover {
+.f-col ul li a:visited {
     color: black;
 }
 
@@ -51,9 +140,10 @@ iframe {
 /* Last links of the footer */
 .last-footer {
     font-size: small;
-    background-color: #AEAF5F;
+    background-color: #DCD191;
     padding: 5px;
     text-align: center;
+    color: white;
 }
 
 .last-footer ul {
@@ -70,12 +160,4 @@ iframe {
 
 .last-footer ul li a {
     text-decoration: none;
-}
-
-.last-footer ul li a:visited {
-    color: white;
-}
-
-.last-footer ul li a:hover {
-    color: white;
 }
