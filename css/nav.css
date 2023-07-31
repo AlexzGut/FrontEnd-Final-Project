@@ -1,0 +1,25 @@
+/* nav */
+
+nav {
+    background-color: #F2F2F2;
+}
+
+nav ul {
+    padding: 0px;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+nav ul li {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+}

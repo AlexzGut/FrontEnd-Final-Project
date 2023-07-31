@@ -1,54 +1,31 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0;
-}
-
-/* header - logo */
-header {
-    padding: 5px 15px;
-    background-color: #DCD191;
-}
-
-.brand-logo {
-    margin: auto;
-    width: 100px;
-}
-
-/* nav */
-
-nav {
-    background-color: #F2F2F2;
-}
-
-nav ul {
-    padding: 0px;
-    margin: 0px;
-}
-
-nav ul li {
-    list-style-type: none;
-    text-align: center;
-
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black;
-    padding-bottom: 10px;
-    display: inline-block;
-    width: 100%;
-}
 
 /* Main */
 /* Popular gifts */
 
 main {
     font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
-    padding: 20px 15px;
+    padding: 0 0 20px 0;
+}
+
+.hero iframe {
+    width: 100%;
+    height: 40vh;
+    padding: 0;
+}
+
+.popular-gifts {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.popular-gifts h2 {
+    font-family: "Guardian-EgypTT",Charter,"Charter Bitstream",Cambria,"Noto Serif Light","Droid Serif",Georgia,serif;
+    font-weight: normal;
+    font-size: 2em;
+    margin: 0;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .product-l,
@@ -74,6 +51,7 @@ figure {
 .popular-gifts img {
     width: 100%;
     border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0,0,0,.2);
 }
 
 .popular-gifts a {
@@ -84,21 +62,27 @@ figure {
     letter-spacing: .1px;
 }
 
-.popular-gifts h3 {
-    margin: 0px;
-    margin-bottom: 3px;
+.product-desc {
+    margin-bottom: 15px;
 }
 
-.popular-gifts span {
+.product-desc h3,  .product-desc p{
+    margin: 0px;
+    font-weight: normal;
+}
+
+.product-desc p span{
+    color: #808080;
+    font-weight: lighter;
+}
+
+.product-desc span {
     text-transform: uppercase;
     font-weight: bold;
+    display: inline-block;
 }
 
-/* Footer*/
-footer {
-    background-color: #F2F2F2;
-    color: black;
-}
+
 
 /* Map location */
 iframe {
@@ -107,57 +91,3 @@ iframe {
     padding-right: 15px;
 }
 
-/* Footer Links*/
-.f-col {
-    font-size: small;
-    padding-left: 15px;
-}
-
-.f-col h4 {
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-
-.f-col ul {
-    padding: 0px;
-    margin-top: 0px;
-}
-
-.f-col ul li {
-    margin-bottom: 10px;
-    list-style-type: none;
-}
-
-.f-col ul li a {
-    text-decoration: none;
-}
-
-.f-col ul li a:visited {
-    color: black;
-}
-
-
-/* Last links of the footer */
-.last-footer {
-    font-size: small;
-    background-color: #DCD191;
-    padding: 5px;
-    text-align: center;
-    color: white;
-}
-
-.last-footer ul {
-    display: inline-block;
-    padding: 0px;
-    margin-bottom: 0px;
-}
-
-.last-footer ul li {
-    display: inline-block;
-    margin-right: 15px;
-    padding-top: 5px;
-}
-
-.last-footer ul li a {
-    text-decoration: none;
-}

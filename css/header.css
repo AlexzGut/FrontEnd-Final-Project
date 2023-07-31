@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+/* header - logo */
+header {
+    padding: 5px 15px;
+    background-color: #DCD191;
+}
+
+.brand-logo {
+    margin: auto;
+    width: 100px;
+}
