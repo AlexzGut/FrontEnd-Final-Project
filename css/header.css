@@ -16,6 +16,11 @@ header {
 }
 
 .brand-logo {
-    margin: auto;
     width: 100px;
+}
+
+.header-logos {
+    float: right;   
+    padding: 20px 0;
+    padding-left: 25px;
 }

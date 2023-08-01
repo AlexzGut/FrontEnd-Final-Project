@@ -1,0 +1,272 @@
+/* Main */
+/* Products */
+
+main {
+    font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
+    padding: 0 0 20px 0;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin-bottom: 12px;
+}
+
+.col-50 {
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+}
+
+#filter-menu {
+    background-color: white;
+    padding: 0 6px;
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+#sort-menu {
+    background-color: white;
+    padding: 0 6px;
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+}
+
+#filter-menu img,
+#sort-menu img {
+    vertical-align: middle;
+}
+
+.product-list {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    clear: left;
+}
+
+.product-list h2 {
+    font-family: "Guardian-EgypTT", Charter, "Charter Bitstream", Cambria, "Noto Serif Light", "Droid Serif", Georgia, serif;
+    font-weight: normal;
+    font-size: 2em;
+    margin: 0;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-l,
+.product-r {
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)*/
+    width: 50%;
+    border-radius: 5px;
+    float: left;
+}
+
+.product-l {
+    padding-right: 4px;
+}
+
+.product-r {
+    padding-left: 4px;
+}
+
+figure {
+    margin: 0px;
+}
+
+.product-list img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2);
+}
+
+.product-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: .1px;
+}
+
+.product-desc {
+    margin-bottom: 15px;
+}
+
+.product-desc h3,
+.product-desc p {
+    margin: 0px;
+    font-weight: normal;
+}
+
+.product-desc p span {
+    color: #808080;
+    font-weight: lighter;
+}
+
+.product-desc span {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Map location */
+iframe {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* Filters */
+#filters-container {
+    z-index: 9;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    display: none;
+}
+
+.filters-header {
+    text-align: center;
+    padding: 15px 0;
+    background-color: white;
+    width: 80%;
+}
+
+.filters-header h2 {
+    margin: 0;
+}
+
+.filters-header span {
+    position: absolute;
+    top: 18px;
+    left: 10px;
+}
+
+.filters-header img {
+    opacity: 0.3;
+}
+
+.filters {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    width: 80%;
+    height: 100vh;
+    overflow-y: scroll;
+    z-index: 10;
+}
+
+.filters h3 {
+    margin: 0;
+}
+
+.filters ul {
+    padding: 0;
+}
+
+.filters ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.filters input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.filters ul li span {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+ul.colors {
+    width: 70%;
+    padding-bottom: 12px;
+}
+
+.colors input[type="checkbox"] {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    border-radius: 50%;
+    appearance: none;
+}
+
+.colors input[type="checkbox"]:checked {
+    opacity: 0.4;
+    border: 2px solid black;
+}
+
+.colors li {
+    display: inline;
+}
+
+#black {
+    background-color: black;    
+}
+
+
+#pink {
+    background-color: pink;
+}
+
+#red {
+    background-color: red;    
+}
+
+#grey {
+    background-color: gray;
+}
+
+#blue {
+    background-color: blue;    
+}
+
+#purple {
+    background-color: purple;    
+}
+
+#green {
+    background-color: green;    
+}
+
+#yellow {
+    background-color: yellow;    
+}
+
+#beige {
+    background-color: beige;    
+}
+
+#khaki {
+    background-color: khaki;    
+}
+
+#orange {
+    background-color: orange;    
+}
+
+#skyblue {
+    background-color: skyblue;    
+}
+
+#brown {
+    background-color: brown;    
+}
+
+#lightgreen {
+    background-color: lightgreen;    
+}
+
+#lightblue {
+    background-color: lightblue;    
+}
