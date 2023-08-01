@@ -1,0 +1,46 @@
+/* Footer */
+.horizontal-line {
+    border-bottom: 1px solid rgba(34,34,34,.15);
+    text-align: center;
+    margin: 25px auto;
+    line-height: 0;
+}
+
+.horizontal-line span {
+    padding: 12px;
+    background-color: white;
+    color: black;
+}
+
+.signup-options a {
+    color: black;
+    border: 2px solid #000;
+    border-radius: 24px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 18px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    
+}
+
+.signup-options span {
+    vertical-align: middle;
+    display: inline-block;
+    height: 18px;
+    margin-left: 5px;
+}
+
+.signup-options img {
+    vertical-align: middle;
+}
+
+footer {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+    color: #999;
+    padding: 0 12px;
+}

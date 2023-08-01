@@ -1,0 +1,76 @@
+body {
+    font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans", Arial, sans-serif;
+}
+
+main {
+    clear: right;
+    padding: 12px 12px 0 12px;
+}
+
+label {
+    color: rgba(80, 80, 80, .80);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+input {
+    display: block;
+    margin-bottom: 12px;
+    width: 100%;
+    border-radius: 5px;
+    height: 48px;
+    padding: 9px 12px;
+    border: 2px solid rgba(34, 34, 34, .15)
+}
+
+form div {
+    margin-bottom: 18px;
+}
+
+.stay-sign {
+    width: 50%;
+    display: inline-block;
+    margin: 0;
+}
+
+.stay-sign label {
+    font-weight: normal;
+    color: #000;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.forgot-pass {
+    /*Forgot your password*/
+    width: 48%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+input[type="checkbox"] {
+    display: inline;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    margin: 0;
+}
+
+input[type="submit"] {
+    border-radius: 24px;
+    background-color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 12px 18px;
+    color: #fff;
+    clear: right;
+    margin-bottom: 18px;
+}
+
+.trouble-shoot {
+    display: block;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}

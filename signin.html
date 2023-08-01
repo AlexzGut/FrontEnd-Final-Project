@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/sign/nav.css">
-    <link rel="stylesheet" href="css/sign/signup/signup.css">
+    <link rel="stylesheet" href="css/sign/signin/signin.css">
     <link rel="stylesheet" href="css/sign/footer.css">
 </head>
 
@@ -20,27 +20,33 @@
     </header>
 
     <nav>
-        <a href="signin.html">Sign in</a>
+        <a href="signup.html">Register</a>
     </nav>
 
     <main>
         <div>
-            <h3>Create your account</h3>
-            <p>Registration is easy.</p>
+            <h3>Sign in to continue</h3>
         </div>
 
         <form method="POST" action="mailto:c0865239@mylambton.ca">
-            <label for="email">Email address</label><span>*</span>
+            <label for="email">Email address</label>
             <input type="email" name="email" id="email" required>
 
-            <label for="first-name">First name</label><span>*</span>
-            <input type="text" name="first-name" id="first-name" required>
-
-            <label for="password">Password</label><span>*</span>
+            <label for="password">Password</label>
             <input type="password" name="password" id="password" required>
 
-            <input type="submit" value="Register">
+            <div>
+                <div class="stay-sign">
+                    <input type="checkbox" name="s-sign" id="s-sign"><label for="s-sign"> Stay signed in</label>
+                </div>
+
+                <a href="" class="forgot-pass">Forgot your password?</a>
+            </div>
+
+            <input type="submit" value="Sing in">
         </form>
+
+        <a href="" class="trouble-shoot">Trouble signing in?</a>
     </main>
 
     <footer>

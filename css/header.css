@@ -11,6 +11,8 @@ body {
 header {
     padding: 5px 15px;
     background-color: #DCD191;
+    position: sticky;
+    top: 0;
 }
 
 .brand-logo {
