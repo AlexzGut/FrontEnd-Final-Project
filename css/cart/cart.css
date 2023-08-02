@@ -1,0 +1,171 @@
+main {
+    padding: 15px 10px;
+}
+
+.items {
+    padding: 20px 0;
+}
+
+.items h1,
+.items h2 {
+    color: #464646;
+    margin: 0;
+}
+
+.items p {
+    color: #77787A;
+    margin: 0;
+}
+
+.cart-header {
+    margin-bottom: 16px;
+}
+
+.cart-header h1 {
+    font-size: 20px;
+}
+
+table {
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+figure {
+    margin: 16px 0 0;
+    padding-left: 16px;
+    display: inline-block;
+}
+
+.cart-item-desc {
+    padding-left: 16px;
+}
+
+#remove-item {
+    color: #1170BA;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+    padding: 0;
+}
+
+.inc-dec-p {
+    font-size: 0;
+}
+
+input {
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    border-left: none;
+    border-right: none;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+}
+
+.side-button {
+    border: 1px solid darkgray;
+    ;
+    background-color: white;
+    width: 20%;
+    height: 40px;
+}
+
+.b-minus {
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+}
+
+.b-add {
+    border-left: none;
+    border-radius: 0 3px 3px 0;
+}
+
+.quantity {
+    width: 50%;
+    display: inline-block;
+    padding-left: 16px;
+}
+
+.price {
+    display: inline-block;
+    height: 30px;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.price p {
+    font-size: 18px;
+    text-align: right;
+    padding-right: 10px;
+    color: #353535;
+    font-weight: 600;
+}
+
+.order-summary {
+    padding: 20px 0;
+    margin-top: 15px;
+}
+
+.order-summary p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.properties,
+.values {
+    display: inline-block;
+    margin: 0;
+    width: 49%;
+}
+
+.properties {
+    color: #77787A;
+}
+
+.values {
+    text-align: right;
+    color: #353535;
+    font-weight: 600;
+
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.p-total {
+    color: black;
+    font-weight: bold;
+    font-size: 24px
+}
+
+.v-total {
+    color: green;
+    font-weight: bold;
+    font-size: 24px
+}
+
+.payment {
+    padding: 12px 0;
+    text-align: center;
+}
+
+.payment a {
+    width: 100%;
+    padding: 20px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.payment figure {
+    padding: 0;
+    margin: 0;
+}
+
+.payment img {
+    margin: 30px;
+}

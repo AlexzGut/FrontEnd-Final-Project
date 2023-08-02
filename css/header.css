@@ -10,17 +10,17 @@ body {
 /* header - logo */
 header {
     padding: 5px 15px;
-    background-color: #DCD191;
+    background-color: #F8AA55;
     position: sticky;
     top: 0;
 }
 
-.brand-logo {
-    width: 100px;
+.brand-logo img {
+    width: 80px;
 }
 
 .header-logos {
     float: right;   
-    padding: 20px 0;
+    padding: 18px 0;
     padding-left: 25px;
 }
