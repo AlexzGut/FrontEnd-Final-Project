@@ -1,0 +1,8 @@
+.product-l, .product-r {
+    width: 33.3333%;
+    padding: 0 3.3%;
+}
+
+.product-desc {
+    height: 100px;
+}

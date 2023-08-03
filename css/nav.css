@@ -12,7 +12,6 @@ nav ul {
 nav ul li {
     list-style-type: none;
     text-align: center;
-
 }
 
 nav ul li a {
@@ -21,4 +20,35 @@ nav ul li a {
     padding-bottom: 10px;
     display: inline-block;
     width: 100%;
+}
+
+@media screen and (min-width: 1035px) {
+    nav {
+        background-color: #F8AA55;
+    }
+
+    nav::after {
+        clear:both;
+        content: "";
+        display: block;
+    }
+
+    nav ul {
+        padding-top: 0;
+    }
+
+    nav ul li {
+        padding: 10px 5%;
+        float: right;
+    }
+
+    nav ul li a {
+        color: white;
+        font-size: 1.2em;
+        padding-bottom: 0;
+    }
+
+    nav ul li:hover {
+        background-color: #9f784e;
+    }
 }

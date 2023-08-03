@@ -10,12 +10,20 @@
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/index/mobilecss.css">
     <link rel="stylesheet" href="../css/footer.css">
+
+    <style>
+        @media screen and (min-width: 1010px) {
+    #home {
+        background-color: #9f784e;
+    }
+}
+    </style>
 </head>
 
 <body>
     <header>
         <div>
-            <a href="index.html" class="brand-logo"><img src="../images/logos/brand-logo.png" alt="logo" ></a>
+            <a href="index.html" class="brand-logo"><img src="../images/logos/brand-logo.png" alt="logo" width="100"></a>
 
             <a href="cart.html" class="header-logos"><img src="../images/logos/cart-logo.png" alt="user-logo" width="25"></a>
 
@@ -25,9 +33,9 @@
 
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="crochet.html">Crochet</a></li>
-            <li><a href="">Knitting</a></li>
+            <li id="home"><a href="index.html">Home</a></li>
+            <li id="crochet"><a href="crochet.html">Crochet</a></li>
+            <li id="knitting"><a href="">Knitting</a></li>
             <li><a href="">Cross Stitch & Embroidery</a></li>
             <li><a href="">More Crafts</a></li>
         </ul>

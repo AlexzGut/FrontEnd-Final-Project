@@ -11,6 +11,10 @@ footer {
     padding-left: 15px;
 }
 
+.footer-col {
+    padding-left: 10px;
+}
+
 .f-col h4 {
     margin-bottom: 10px;
     margin-top: 20px;
@@ -57,4 +61,16 @@ footer {
 
 .last-footer ul li a {
     text-decoration: none;
+}
+
+@media screen and (min-width:481px) {
+    .footer-col {
+        float: left;
+        width: 33.33333%;
+        padding-left: 10%;
+    }
+
+    .last-footer {
+        clear: left;
+    }
 }

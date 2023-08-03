@@ -40,3 +40,11 @@ input[type="submit"] {
     padding: 12px 18px;
     color: #fff;
 }
+
+@media screen and (min-width: 481px) {
+    main, footer {
+        width: 50%;
+        max-width: 400px;
+        margin: auto;
+    }
+}

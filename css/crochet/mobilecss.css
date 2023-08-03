@@ -94,6 +94,7 @@ figure {
 
 .product-desc {
     margin-bottom: 15px;
+    border-bottom: 1px solid lightgrey;
 }
 
 .product-desc h3,
@@ -112,6 +113,47 @@ figure {
     font-weight: bold;
     display: inline-block;
 }
+
+.pagination {
+    padding-top: 20px;
+    width: 233px;
+    margin: auto;
+    clear: left;
+}
+
+.pagination button {
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.pagination button:hover {
+    background-color: #d6d6d7;
+}
+
+.pagination span {
+    color: #1E78BE;
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.pagination span:hover {
+    transform: scale(1.4);
+}
+
+.pagination button img {
+    opacity: 0.7;
+    width: 10px;
+    border: none;
+    border-radius: initial;
+    box-shadow: initial;
+}
+
+
 
 /* Map location */
 iframe {

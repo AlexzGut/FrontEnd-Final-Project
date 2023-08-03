@@ -1,0 +1,41 @@
+.product-list {
+    clear: none;
+    float: left;
+    width: 70%;
+}
+
+.product-l, .product-r {
+    width: 25%;
+    padding: 0 2.5%;
+}
+
+.product-desc {
+    height: 100px;
+}
+
+.col-50 {
+    display: none;
+    float: none;
+}
+
+#filters-container {
+    display: block;
+    position: initial;
+    width: 30%;
+    background-color: transparent;
+    margin: 0;
+    float: left;
+}
+
+.filters-header span { 
+    display: none;
+}
+
+.filters {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    height: auto;
+    overflow-y: initial;
+}
