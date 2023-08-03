@@ -9,6 +9,9 @@ main p {
 main {
     clear: right;
     padding: 12px 12px 0 12px;
+    width: 95%;
+    margin: auto;
+    transition: ease all .7s;
 }
 
 form span {
@@ -41,10 +44,17 @@ input[type="submit"] {
     color: #fff;
 }
 
+footer {
+    width: 95%;
+    margin: auto;
+    transition: ease all .7s;
+}
+
 @media screen and (min-width: 481px) {
     main, footer {
-        width: 50%;
+        width: 75%;
         max-width: 400px;
         margin: auto;
+        transition: ease all .7s;
     }
 }
