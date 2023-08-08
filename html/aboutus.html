@@ -8,16 +8,26 @@
 
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/cart/cart.css">
+    <link rel="stylesheet" href="../css/aboutus/aboutus.css">
     <link rel="stylesheet" href="../css/footer.css">
+
+    <style>
+        @media screen and (min-width: 1010px) {
+            #aboutus {
+                background-color: #9f784e;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <div>
-            <a href="index.html" class="brand-logo"><img src="../images/logos/brand-logo.png" alt="logo"></a>
+            <a href="index.html" class="brand-logo"><img src="../images/logos/brand-logo.png" alt="logo"
+                    width="100"></a>
 
-            <a href="" class="header-logos"><img src="../images/logos/cart-logo.png" alt="user-logo" width="25"></a>
+            <a href="cart.html" class="header-logos"><img src="../images/logos/cart-logo.png" alt="user-logo"
+                    width="25"></a>
 
             <a href="signin.html" class="header-logos"><img src="../images/logos/user-logo.png" alt="user-logo"
                     width="20"></a>
@@ -35,118 +45,57 @@
     </nav>
 
     <main>
-        <section class="items">
-            <div class="cart-header">
-                <h1>My cart</h1>
-                <p>2 items, CA&dollar;43.69</p>
-            </div>
 
-            <h2>Items to Ship</h2>
-            <p>Tracked 4 - 7 working days</p>
-
-            <!-- First Item -->
-            <table>
-                <tr>
-                    <td>
-                        <div class="cart-item">
-                            <figure>
-                                <img src="../images/crochet/vintage-heather.avif" alt="midnight-blue" width="75">
-                            </figure>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="cart-item-desc">
-                            <p>Yarn - RT567LO</p>
-                            <p>Midnight Blue</p>
-                            <button id="remove-item">Remove item</button>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-
-            <div class="inc-dec-p">
-                <div class="quantity">
-                    <button class="side-button b-minus"><img src="../images/logos/minus-icon.png" alt="minus-icon"
-                            width="10"></button>
-                    <input type="text" name="" id="" placeholder="1">
-                    <button class="side-button b-add"><img src="../images/logos/add-icon.png" alt="add-icon"
-                            width="10"></button>
+        <section class="values">
+            
+                <div class="value">
+                    <figure>
+                        <img src="../images/aboutus/force-of-good.png" alt="force-of-good">
+                    </figure>
+                    <h1>Be a force for good</h1>
+                    <p>Making the world a better pace through positive actions, inlusion and diversity</p>
                 </div>
 
-                <div class="price">
-                    <p>CA&dollar;3.49</p>
-                </div>
-            </div>
-
-            <!-- Second Item -->
-            <table>
-                <tr>
-                    <td>
-                        <div class="cart-item">
-                            <figure>
-                                <img src="../images/index/scarf-brown.jpg" alt="midnight-blue" width="75">
-                            </figure>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="cart-item-desc">
-                            <p>Scarg-Fall - YH875KS</p>
-                            <p>Brown</p>
-                            <button id="remove-item">Remove item</button>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-
-            <div class="inc-dec-p">
-                <div class="quantity">
-                    <button class="side-button b-minus"><img src="../images/logos/minus-icon.png" alt="minus-icon"
-                            width="10"></button>
-                    <input type="text" name="" id="" placeholder="1">
-                    <button class="side-button b-add"><img src="../images/logos/add-icon.png" alt="add-icon"
-                            width="10"></button>
+                <div class="value">
+                    <figure>
+                        <img src="../images/aboutus/good-human.png" alt="good-human">
+                    </figure>
+                    <h1>Be a good human</h1>
+                    <p>Value good communication. Be open, honest and constructive with yourself, with your team, with the company, and with the world.</p>
                 </div>
 
-                <div class="price">
-                    <p>CA&dollar;40.20</p>
+                <div class="value">
+                    <figure>
+                        <img src="../images/aboutus/empower-others.png" alt="empower-others">
+                    </figure>
+                    <h1>Empower Others</h1>
+                    <p>Empowering others to achive their goals, both globally and with One Less Crochet.</p>
                 </div>
-            </div>
 
+            
         </section>
 
-        <section class="cart-summary">    
-        <section class="order-summary">
-            <h1>Order Summary</h1>
-            <div class="properties">
-                <P>Subtotal (2 items):</P>
-                <p>Sales Tax:</p>
-            </div>
-            <div class="values">
-                <P>CA&dollar;43.69</P>
-                <p>Free</p>
-            </div>
-            <hr>
-            <div class="properties p-total">
-                <p>Total:</p>
-            </div>
-            <div class="values v-total">
-
-                <p>CA&dollar;43.69</p>
+        <section class="launch">
+            <div>
+                <p>
+                    Founded in 2013, "One Less Craft" emerges as an online creative platform dedicated to empowering
+                    individuals across the globe to craft and design with ease. We also offer a vast variety of
+                    products.
+                </p>
             </div>
         </section>
 
-        <section class="payment">
-            <a href="signin.html" target="_self">Continue to Checkout</a>
-
-            <p>Secure payment with</p>
+        <section class="our-message">
             <figure>
-                <img src="../images/logos/visa-logo.png" alt="visa-logo" width="50" height="38.81">
-                <img src="../images/logos/mastercard-logo.png" alt="mastercard-logo" width="50">
-                <img src="../images/logos/paypal-logo.png" alt="paypal-logo" width="50" height="38.81">
+                <img src="../images/aboutus/a-message-logo.png" alt="a-message-logo">
             </figure>
-        </section>
-    </section> 
+            <h1>A Message from All of Us</h1>
+            <p>
+                Here at "One Less Craft," we wholeheartedly recognize and honor the Traditional Custodians of the lands we inhabit. We hold deep respect for their enduring relationships with the land, sea, and community. We pay homage to their ancestors, both past and present, and extend this profound respect to all Aboriginal and Torres Strait Islander communities of today. Just as every thread is woven into a masterpiece, we strive to weave understanding, unity, and reverence into the tapestry of our journey at "One Less Craft."</p>
 
+        </section>
+
+        
     </main>
 
     <footer>

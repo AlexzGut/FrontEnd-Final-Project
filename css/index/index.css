@@ -6,7 +6,7 @@
 }
 
 .promotions div {
-    padding: 5px 10px;
+    padding: 5px 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,12 +25,12 @@
     font-weight: 700;
     letter-spacing: .1px;
     line-height: 18px;
+    height: 50%;
 }
 
 .promotions img {
     box-shadow: 0 4px 10px rgba(34,34,34,.15);
-    width: 84px;
-    max-width: 84px;
+    width: 65px;
     border-radius: 50%;
     border: 1px solid rgba(34,34,34,.15)
 }
@@ -44,7 +44,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 60%;
+    width: 100%;
     margin: auto;
     margin-bottom: 50px;
 }
@@ -95,4 +95,30 @@
 .content div img:hover {
     box-shadow: 0 4px 10px rgba(34,34,34,.15);
     transition: ease all .3s;
+}
+
+@media screen and (min-width: 481px) {
+    .content {
+        width: 75%;
+    }
+
+    .promotions img {
+        width: 70px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .promotions div {
+        padding: 5px 10px;
+    }
+
+    .promotions img {
+        width: 84px;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .content {
+        width: 65%;
+    }
 }
