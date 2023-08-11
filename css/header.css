@@ -25,8 +25,12 @@ header {
     padding-left: 25px;
 }
 
-@media screen and (min-width: 1010px) {
+@media screen and (min-width: 769px) {
     header {
         padding-right: 4%;
+    }
+
+    #menu-icon {
+        display: none;
     }
 }

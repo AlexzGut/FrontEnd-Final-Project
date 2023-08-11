@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="../css/footer.css">
 
     <style>
-        @media screen and (min-width: 1035px) {
+        @media screen and (min-width: 769px) {
             #knitting {
-                background-color: #9f784e;
+                background-color: #5C4F37;
             }
         }
     </style>
@@ -28,30 +28,38 @@
             <a href="index.html" class="brand-logo"><img src="../images/logos/brand-logo.png" alt="logo"
                     width="100"></a>
 
+            <span class="header-logos" id="menu-icon"><img src="../images/logos/menu-icon.png" alt="user-logo" width="25"  onclick="openmenu()"></span>
+
             <a href="cart.html" class="header-logos"><img src="../images/logos/cart-logo.png" alt="user-logo"
                     width="25"></a>
 
-            <a href="signin.html" class="header-logos"><img src="../images/logos/user-logo.png" alt="user-logo"
-                    width="20"></a>
+            <a href="signin.html" class="header-logos"><img src="../images/logos/user-logo.png" alt="menu-icon"
+                width="20"></a>
         </div>
+
+        <script>
+            function openmenu() {
+                document.getElementById("menu").style.display = "block";
+            }
+        </script>
     </header>
 
-    <nav>
+    <nav id="menu">
         <ul>
             <li id="home"><a href="index.html">Home</a></li>
             <li id="crochet"><a href="crochet.html">Crochet</a></li>
             <li id="knitting"><a href="knitting.html">Knitting</a></li>
             <li id="aboutus"><a href="aboutus.html">About Us</a></li>
-            <li id="Contactus"><a href="">Contact Us</a></li>
+            <li id="Contactus"><a href="contact_us.html">Contact Us</a></li>
         </ul>
     </nav>
 
     <main>
         <section class="hero">
             <picture>
-                <source media="(min-width: 481px)" srcset="../images/hero/hero-desktop.avif">
-                <source media="(min-width: 360px)" srcset="../images/hero/hero-mobile.jpg">
-                <img src="../images/hero/hero-desktop.avif">
+                <source media="(min-width: 481px)" srcset="../images/hero/knitting-hero.jpg">
+                <source media="(min-width: 360px)" srcset="../images/hero/knitting-hero-mobile.jpg">
+                <img src="../images/hero/knitting-hero.jpg">
             </picture>
         </section>
 
@@ -152,7 +160,7 @@
                 <div class="product-l">
                     <a href="">
                         <figure>
-                            <img src="../images/crochet/ballet-pink.avif" alt="bags" width="200">
+                            <img src="../images/knitting/Crochet Hooks 2.jpg" alt="bags" width="200">
                         </figure>
                         <div class="product-desc">
                             <h3>Ballet Pink</h3>
@@ -166,7 +174,7 @@
                 <div class="product-r">
                     <a href="">
                         <figure>
-                            <img src="../images/crochet/banana-cream.avif" alt="bags" width="200">
+                            <img src="../images/knitting/Crochet Hooks 3.jpg" alt="bags" width="200">
                         </figure>
                         <div class="product-desc">
                             <h3>Banana Cream</h3>
@@ -181,7 +189,7 @@
                 <div class="product-l">
                     <a href="">
                         <figure>
-                            <img src="../images/crochet/blood-orange.avif" alt="bags" width="200">
+                            <img src="../images/knitting/Crochet Hooks.jpg" alt="bags" width="200">
                         </figure>
                         <div class="product-desc">
                             <h3>Blood Orange</h3>
@@ -195,7 +203,7 @@
                 <div class="product-r">
                     <a href="">
                         <figure>
-                            <img src="../images/crochet/blush-pink.avif" alt="bags" width="200">
+                            <img src="../images/knitting/Crochet Scissor Set.jpg" alt="bags" width="200">
                         </figure>
                         <div class="product-desc">
                             <h3>Blush Pink</h3>
@@ -211,7 +219,7 @@
                 <div class="product-l">
                     <a href="">
                         <figure>
-                            <img src="../images/crochet/bubblegum-pink.avif" alt="bags" width="200">
+                            <img src="../images/knitting/Crochet Stitch Markers.jpg" alt="bags" width="200">
                         </figure>
                         <div class="product-desc">
                             <h3>Bubblegum Pink</h3>
@@ -225,7 +233,7 @@
                 <div class="product-r">
                     <a href="">
                         <figure>
-                            <img src="../images/crochet/buttercap-yellow.avif" alt="bags" width="200">
+                            <img src="../images/knitting/Crochet Tags.jpg" alt="bags" width="200">
                         </figure>
                         <div class="product-desc">
                             <h3>Buttercap Yellow</h3>
@@ -241,7 +249,7 @@
                 <div class="product-l">
                     <a href="">
                         <figure>
-                            <img src="../images/crochet/candyfloss-pink.avif" alt="bags" width="200">
+                            <img src="../images/knitting/Crochet Wool Pin.jpg" alt="bags" width="200">
                         </figure>
                         <div class="product-desc">
                             <h3>Candyfloss Pink</h3>
@@ -255,7 +263,7 @@
                 <div class="product-r">
                     <a href="">
                         <figure>
-                            <img src="../images/crochet/cerulean-blue.avif" alt="bags" width="200">
+                            <img src="../images/knitting/Measuring Tape.jpg" alt="bags" width="200">
                         </figure>
                         <div class="product-desc">
                             <h3>Cerulean Blue</h3>
@@ -271,7 +279,7 @@
                 <div class="product-l">
                     <a href="">
                         <figure>
-                            <img src="../images/crochet/champange-white.avif" alt="bags" width="200">
+                            <img src="../images/knitting/Pom Maker.jpeg" alt="bags" width="200">
                         </figure>
                         <div class="product-desc">
                             <h3>Champange White</h3>
@@ -285,777 +293,11 @@
                 <div class="product-r">
                     <a href="">
                         <figure>
-                            <img src="../images/crochet/coffe-bean.avif" alt="bags" width="200">
+                            <img src="../images/knitting/Yarn Ball Winder.jpg" alt="bags" width="200">
                         </figure>
                         <div class="product-desc">
                             <h3>Coffee Bean</h3>
                             <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Sixth Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/daffodil-yellow.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Daffodil Yellow</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/dark-aubergine.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Dark Aubergine</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Seventh Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/deep-sea-blue.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Deep Sea Blue</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/dolphine-blue.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Dolphine Blue</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Eigth Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/duck-egg-blue.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Duck Egg Blue</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/dusty-lilac.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Dusty Lilac</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Nineth Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/dusty-rose.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Dusty Rose</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/elephant-grey.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Elephant Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Tenth Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/glorious-gold.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/granite-grey.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Eleventh Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/grass-green.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/jam.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Twelveth Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/jewel.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/king-fisher-blue.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Thirteenth Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/light-caramel.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/lime-green.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Fourteenth Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/lipstick-pink.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/macaron-green.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Fifteenth Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/marine-blue.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/midnight-blue.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Sixteenth Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/misty-gray.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/mustard-yellow.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Seventeenth Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/navy-night.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/pale-lilac.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Eighteenth Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/pansy-purple.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/peach-orange.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Nineteenth Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/pear-green.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/pillar-red.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Twentieth Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/pine-green.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/pistacho-green.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- 21st Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/pure-black.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/racing-green.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- 22nd Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/raspberry-pink.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/red-wine.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- 23rd Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/rich-teal.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/rose-red.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- 24th Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/rosy-pink.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/royal-blue.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- 24th Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/sailor-blue.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/seafoam-blue.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- 25th Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/slate-green.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/slate-grey.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- 26th Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/soft-fudge.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/spearmint-green.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- 27th Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/stormy-grey.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/summer-sky-blue.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- 28th Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/taupe.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/tea-rose.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- 29th Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/vanilla-cream.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="product-r">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/vintage-heather.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Granite Grey</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733; <span>(423)</span></p>
-                            <span class="price">ca&dollar;70.60</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- 30th Row -->
-            <div>
-                <div class="product-l">
-                    <a href="">
-                        <figure>
-                            <img src="../images/crochet/washed-teal.avif" alt="bags" width="200">
-                        </figure>
-                        <div class="product-desc">
-                            <h3>Glorious Gold</h3>
-                            <p>&#9733;&#9733;&#9733;&#9733;&#9733; <span>(258)</span></p>
                             <span class="price">ca&dollar;70.60</span>
                         </div>
                     </a>

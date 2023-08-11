@@ -8,8 +8,16 @@
 
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/cart/cart.css">
+    <link rel="stylesheet" href="../css/contact_us/contact_us.css">
     <link rel="stylesheet" href="../css/footer.css">
+
+    <style>
+        @media screen and (min-width: 769px) {
+            #Contactus {
+                background-color: #5C4F37;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -45,118 +53,64 @@
     </nav>
 
     <main>
-        <section class="items">
-            <div class="cart-header">
-                <h1>My cart</h1>
-                <p>2 items, CA&dollar;43.69</p>
-            </div>
 
-            <h2>Items to Ship</h2>
-            <p>Tracked 4 - 7 working days</p>
+        <div class="wrapper">
+        <div class="contact-container">
+            <h1>Contact our Sales team</h1>
+            <p>Empower everyone in your life to design anything. Connect with us today to learn more about how One Less Craft
+                can help you grow your crochet skills.</p>
+            <ul>
+                <li>Access the world’s easiest crochet style.</li>
+                <li>Design & collaborate together from any anywhere in the world.</li>
+                <li>Ensure brand consistency with the best quality in our products.</li>
+                <li>Discover the perfect style for your crochet projects.</li>
+            </ul>
+        </div>
 
-            <!-- First Item -->
-            <table>
-                <tr>
-                    <td>
-                        <div class="cart-item">
-                            <figure>
-                                <img src="../images/crochet/vintage-heather.avif" alt="midnight-blue" width="75">
-                            </figure>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="cart-item-desc">
-                            <p>Yarn - RT567LO</p>
-                            <p>Midnight Blue</p>
-                            <button id="remove-item">Remove item</button>
-                        </div>
-                    </td>
-                </tr>
-            </table>
+        <div class="contactus-container">
+            <section class="form-container">
+                <h2>Get in Touch.</h2>
+                <p><i>Please fill out the form and we will be in touch right away.</i></p>
+                <form action="mailto:c0865239@mylambton.ca" method="POST" class="contact-form">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" required>
 
-            <div class="inc-dec-p">
-                <div class="quantity">
-                    <button class="side-button b-minus"><img src="../images/logos/minus-icon.png" alt="minus-icon"
-                            width="10"></button>
-                    <input type="text" name="" id="" placeholder="1">
-                    <button class="side-button b-add"><img src="../images/logos/add-icon.png" alt="add-icon"
-                            width="10"></button>
-                </div>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" required>
 
-                <div class="price">
-                    <p>CA&dollar;3.49</p>
-                </div>
-            </div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
 
-            <!-- Second Item -->
-            <table>
-                <tr>
-                    <td>
-                        <div class="cart-item">
-                            <figure>
-                                <img src="../images/index/scarf-brown.jpg" alt="midnight-blue" width="75">
-                            </figure>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="cart-item-desc">
-                            <p>Scarg-Fall - YH875KS</p>
-                            <p>Brown</p>
-                            <button id="remove-item">Remove item</button>
-                        </div>
-                    </td>
-                </tr>
-            </table>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
 
-            <div class="inc-dec-p">
-                <div class="quantity">
-                    <button class="side-button b-minus"><img src="../images/logos/minus-icon.png" alt="minus-icon"
-                            width="10"></button>
-                    <input type="text" name="" id="" placeholder="1">
-                    <button class="side-button b-add"><img src="../images/logos/add-icon.png" alt="add-icon"
-                            width="10"></button>
-                </div>
+                    <label for="help">How can we help?</label>
+                    <textarea id="help" name="help" rows="15" required></textarea>
 
-                <div class="price">
-                    <p>CA&dollar;40.20</p>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </div>
+
+
+
+        <!-- This is the How to find us section -->
+        <div class="location-container">
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16064.816256823005!2d-79.34330575958897!3d43.768869616266514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d3bca1a3f78f%3A0x815365ed6c3b957e!2sLambton%20College%20In%20Toronto!5e0!3m2!1sen!2sca!4v1691525036875!5m2!1sen!2sca"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+                <div class="contact-info">
+                    <p><span>Company Name:</span> One Less Craft</p>
+                    <p><span>Location:</span> Toronto, Ontario Canada</p>
+                    <p><span>Phone Number:</span> 1-800-276-2438</p>
+                    <p><span>Email Address:</span> support@onelesscraft.com</p>
                 </div>
             </div>
-
-        </section>
-
-        <section class="cart-summary">    
-        <section class="order-summary">
-            <h1>Order Summary</h1>
-            <div class="properties">
-                <P>Subtotal (2 items):</P>
-                <p>Sales Tax:</p>
-            </div>
-            <div class="values">
-                <P>CA&dollar;43.69</P>
-                <p>Free</p>
-            </div>
-            <hr>
-            <div class="properties p-total">
-                <p>Total:</p>
-            </div>
-            <div class="values v-total">
-
-                <p>CA&dollar;43.69</p>
-            </div>
-        </section>
-
-        <section class="payment">
-            <a href="signin.html" target="_self">Continue to Checkout</a>
-
-            <p>Secure payment with</p>
-            <figure>
-                <img src="../images/logos/visa-logo.png" alt="visa-logo" width="50" height="38.81">
-                <img src="../images/logos/mastercard-logo.png" alt="mastercard-logo" width="50">
-                <img src="../images/logos/paypal-logo.png" alt="paypal-logo" width="50" height="38.81">
-            </figure>
-        </section>
-    </section> 
-
+        </div>
+    </div>
     </main>
 
     <footer>

@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="../css/footer.css">
 
     <style>
-        @media screen and (min-width: 1010px) {
+        @media screen and (min-width: 769px) {
             #home {
-                background-color: #9f784e;
+                background-color: #5C4F37;
             }
         }
     </style>
@@ -26,21 +26,29 @@
             <a href="index.html" class="brand-logo"><img src="../images/logos/brand-logo.png" alt="logo"
                     width="100"></a>
 
+            <span class="header-logos" id="menu-icon"><img src="../images/logos/menu-icon.png" alt="user-logo" width="25"  onclick="openmenu()"></span>
+
             <a href="cart.html" class="header-logos"><img src="../images/logos/cart-logo.png" alt="user-logo"
                     width="25"></a>
 
-            <a href="signin.html" class="header-logos"><img src="../images/logos/user-logo.png" alt="user-logo"
-                    width="20"></a>
+            <a href="signin.html" class="header-logos"><img src="../images/logos/user-logo.png" alt="menu-icon"
+                width="20"></a>
         </div>
+
+        <script>
+            function openmenu() {
+                document.getElementById("menu").style.display = "block";
+            }
+        </script>
     </header>
 
-    <nav>
+    <nav id="menu">
         <ul>
             <li id="home"><a href="index.html">Home</a></li>
             <li id="crochet"><a href="crochet.html">Crochet</a></li>
             <li id="knitting"><a href="knitting.html">Knitting</a></li>
             <li id="aboutus"><a href="aboutus.html">About Us</a></li>
-            <li id="Contactus"><a href="">Contact Us</a></li>
+            <li id="Contactus"><a href="contact_us.html">Contact Us</a></li>
         </ul>
     </nav>
 
