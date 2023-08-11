@@ -73,7 +73,8 @@
 }
 
 .content div h1 {
-    font-size: 1.5em;
+    font-size: 4.625em;
+    margin-top: 0;
 }
 
 .content div img {
@@ -115,10 +116,20 @@
     .promotions img {
         width: 84px;
     }
+
+    .content div h1 {
+        font-size: 2.625em;
+    }
 }
 
 @media screen and (min-width: 920px) {
     .content {
         width: 65%;
+    }
+}
+
+@media screen and (min-width: 1160px) {
+    .content div h1 {
+        font-size: 3.625em;
     }
 }
